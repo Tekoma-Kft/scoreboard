@@ -61,6 +61,7 @@
   }
   .object-title {
     padding: 0.5em;
+    font-family: monospace;
   }
 
   .wrapper {
@@ -74,6 +75,8 @@
     height: var(--w);
     font-size: 2rem;
     margin: 10rem;
+    border-radius: 0.1em;
+    padding: 1em;
   }
 
   td {
@@ -81,5 +84,9 @@
     box-shadow: 1px 1px 3px grey;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  tr:nth-child(odd) {
+    background-color: lightgrey;
   }
 </style>
