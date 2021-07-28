@@ -56,6 +56,9 @@
 </div>
 
 <style>
+  :root {
+    --w: 50%;
+  }
   .object-title {
     padding: 0.5em;
   }
@@ -67,8 +70,8 @@
     flex-direction: column;
     align-content: space-around;
     text-align: center;
-    width: 50vh;
-    height: 54vh;
+    width: 50%;
+    height: var(--w);
     font-size: 2rem;
     margin: 10rem;
   }
